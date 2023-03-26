@@ -11,6 +11,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.appnghenhac.fragment.HomeFragment;
+
 public class NghenhacActivity extends AppCompatActivity {
     Button btBackC;
     @Override
@@ -49,7 +51,7 @@ public class NghenhacActivity extends AppCompatActivity {
 
     void showActivity(String menu)
     {
-        Intent i= new Intent(NghenhacActivity.this, DetailActivity.class);
+        Intent i= new Intent(NghenhacActivity.this, HomeFragment.class);
         i.putExtra("menu",menu);
         startActivity(i);
     }

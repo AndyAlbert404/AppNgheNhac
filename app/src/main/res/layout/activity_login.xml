@@ -21,7 +21,7 @@
 
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/edUsernameL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -35,7 +35,7 @@
 
         <EditText
 
-            android:id="@+id/password"
+            android:id="@+id/edPasswordL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -50,7 +50,7 @@
 
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_llogin"
+            android:id="@+id/btLogin"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -60,7 +60,7 @@
 
         <Button
 
-            android:id="@+id/btn_dangky"
+            android:id="@+id/btRegister"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"

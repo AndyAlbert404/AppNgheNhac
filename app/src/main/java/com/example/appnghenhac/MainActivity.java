@@ -8,13 +8,12 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.Toast;
 
+import com.example.appnghenhac.LG_and_RG.LoginActivity;
 import com.example.appnghenhac.fragment.HomeFragment;
 import com.example.appnghenhac.fragment.LibraryFragment;
 import com.example.appnghenhac.fragment.SearchFragment;
@@ -55,7 +54,7 @@ BottomNavigationView fragOption;
     }
     void showActivity(String menu)
     {
-        Intent i= new Intent(MainActivity.this,LoginActivity.class);
+        Intent i= new Intent(MainActivity.this, LoginActivity.class);
         i.putExtra("menu",menu);
         startActivity(i);
     }
