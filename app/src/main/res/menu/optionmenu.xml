@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mnNotifi" android:title="Notifitication" android:icon="@drawable/baseline_notifications_24" app:showAsAction="always" android:tooltipText="Notifitication"/>
+    <item android:id="@+id/mnSetting" android:title="Setting" android:icon="@drawable/baseline_settings_24" app:showAsAction="ifRoom" android:tooltipText="Setting">
+        <menu>
+            <item android:id="@+id/mnAcc" android:title="Account" android:icon="@drawable/baseline_account_circle_24"/>
+        </menu>
+    </item>
+</menu>

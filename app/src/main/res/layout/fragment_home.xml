@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top trending của tuần"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"/>
+
+        <ImageView
+            android:id="@+id/tvImg1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img0"
+            android:layout_margin="20dp"
+            app:layout_constraintTop_toBottomOf="@id/tvHeader"
+            tools:ignore="MissingConstraints"/>
+        <TextView
+            android:id="@+id/tvName1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Senõrita"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@id/tvImg1"
+            app:layout_constraintTop_toBottomOf="@id/tvHeader" />
+        <Button
+            android:id="@+id/btPlay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:drawableLeft="@drawable/baseline_play_circle_filled_24"
+            app:layout_constraintTop_toBottomOf="@id/tvName1"
+            app:layout_constraintLeft_toRightOf="@id/tvImg1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/tvImg2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img1"
+            app:layout_constraintTop_toBottomOf="@id/tvImg1"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints"/>
+        <TextView
+            android:id="@+id/tvName2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="I need you"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@id/tvImg2"
+            app:layout_constraintTop_toBottomOf="@id/tvImg1"
+            />
+        <Button
+            android:id="@+id/btPlay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_play_circle_filled_24"
+            android:text="Play"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@id/tvName2"
+            app:layout_constraintLeft_toRightOf="@id/tvImg2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/tvImg3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img2"
+            app:layout_constraintTop_toBottomOf="@id/tvImg2"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints"/>
+        <TextView
+            android:id="@+id/tvName3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Glimpse of Us"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toRightOf="@id/tvImg3"
+            app:layout_constraintTop_toBottomOf="@id/tvImg2"
+            />
+        <Button
+            android:id="@+id/btPlay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_play_circle_filled_24"
+            android:text="Play"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@id/tvName3"
+            app:layout_constraintLeft_toRightOf="@id/tvImg3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
